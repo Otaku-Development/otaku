@@ -1,0 +1,28 @@
+{
+  "css.validate": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "liquid.format": true,
+  "editor.formatOnSave": true,
+  "stylelint.validate": ["css", "less", "postcss", "vue"],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "editor.tabSize": 2,
+  "workbench.colorCustomizations": {
+		"titleBar.activeForeground": "#fffbf5",
+    "titleBar.activeBackground": "#4185B9"
+	},
+}

@@ -1,0 +1,50 @@
+{
+  "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+  "services": [
+    {
+      "title": "Service One",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "image": "phone.svg"
+    },
+    {
+      "title": "Service Two",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "image": "phone.svg"
+    },
+    {
+      "title": "Service Three",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "image": "phone.svg"
+    },
+    {
+      "title": "Service Four",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "image": "phone.svg"
+    },
+    {
+      "title": "Service Five",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "image": "phone.svg"
+    },
+    {
+      "title": "Service Six",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "image": "phone.svg"
+    },
+    {
+      "title": "Service Seven",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "image": "phone.svg"
+    },
+    {
+      "title": "Service Eight",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "image": "phone.svg"
+    },
+    {
+      "title": "Service Nine",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "image": "phone.svg"
+    }
+  ]
+}

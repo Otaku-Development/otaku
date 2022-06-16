@@ -1,0 +1,14 @@
+.Hero__Strapline {
+  & img {
+    display: none;
+  }
+  @media (--mq-tablet-and-up) {
+    & h1 {
+      grid-column: 2 / span 7;
+    }
+    & img {
+      display: block;
+      grid-column: 10 / span 2;
+    }
+  }
+}

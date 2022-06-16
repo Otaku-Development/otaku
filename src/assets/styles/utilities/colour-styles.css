@@ -1,0 +1,25 @@
+.Bg--blue {
+  background-color: var(--color-blue);
+  background-image: url('../images/bg-blue.jpg');
+  background-repeat: repeat;
+  background-size: 1438px auto;
+  background-position: center;
+  color: var(--color-white);
+  & a {
+    color: var(--color-white);
+    &:hover {
+      color: var(--color-dark-blue);
+    }
+  }
+}
+
+.Bg--dark-blue {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+  & a {
+    color: var(--color-white);
+    &:hover {
+      color: var(--color-blue);
+    }
+  }
+}

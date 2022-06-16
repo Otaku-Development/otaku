@@ -1,0 +1,55 @@
+.Lead {
+  font-size: var(--font-size--lead);
+}
+
+.Page-Title {
+  margin-bottom: 40px;
+}
+
+.Project {
+  margin-bottom: 40px;
+}
+
+.Project__Image {
+  & img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.Project__Image,
+.Project__Text {
+  grid-column: 1 / span 12;
+}
+
+.Project__Details {
+  & dt {
+    clear: left;
+    display: inline-block;
+    float: left;
+    font-weight: 700;
+    margin: 0 10px 10px 0;
+    width: 50px;
+  }
+  & dd {
+    margin: 0 0 10px 0;
+  }
+}
+
+@media (--mq-tablet-and-up) {
+  .Project__Image {
+    grid-column: 1 / span 6;
+  }
+  .Project__Text {
+    grid-column: 7 / span 6;
+  }
+}
+
+@media (--mq-lap-and-up) {
+  .Project__Image {
+    grid-column: 2 / span 5;
+  }
+  .Project__Text {
+    grid-column: 8 / span 4;
+  }
+}

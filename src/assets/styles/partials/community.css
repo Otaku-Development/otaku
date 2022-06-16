@@ -1,0 +1,25 @@
+.Community__Title {
+  padding: 24px 0;
+  text-align: center;
+  & h2 {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.Community__Image {
+}
+
+.Community__Text {
+  padding: var(--grid-gap);
+}
+
+.Swmobile {
+  h3 {
+    display: none;
+  }
+  & img {
+    float: left;
+    margin-right: 24px;
+  }
+}

@@ -1,0 +1,41 @@
+---
+title: 'Works | Otaku Development'
+layout: 'layouts/page.html'
+eleventyNavigation:
+  key: Works
+  order: 3
+---
+
+<div class="Container">
+
+  <div class="Page-Title">
+    <h1>Portfolio</h1>
+    <p class="Lead">{{ portfolio.intro | safe }}</p>
+  </div>
+
+  {%- for project in portfolio.projects -%}
+    <section class="Project Grid">
+      <div class="Project__Image">
+        {% image ["./src/assets/images/", project.image] | join, project.name %}
+      </div>
+      <div class="Project__Text">
+      <h2>{{ project.name }}</h2>
+        <dl class="Project__Details">
+          {% if project.client %}
+            <dt>Client: </dt>
+            <dd>{{ project.client }}</dd>
+          {% endif %}
+          {% if project.role %}
+            <dt>Role: </dt>
+            <dd>{{ project.role }}</dd>
+          {% endif %}
+        </dl>
+        {% if project.desc %}
+          <p>{{ project.desc }}</p>
+        {% endif %}
+      </div>
+    </section>
+  {%- endfor -%}
+
+</div>
+{% include "contact.njk" %}

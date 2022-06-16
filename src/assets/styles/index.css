@@ -1,0 +1,28 @@
+/* Global */
+@import 'global/settings.css';
+@import 'global/body.css';
+@import 'global/type.css';
+@import 'global/images.css';
+@import 'global/forms.css';
+@import 'global/buttons.css';
+@import 'global/a11y.css';
+
+/* Utilities */
+@import 'utilities/a11y.css';
+@import 'utilities/container.css';
+@import 'utilities/mobile-desktop.css';
+@import 'utilities/colour-styles.css';
+@import 'utilities/grid.css';
+
+/* Partials */
+@import 'partials/header.css';
+@import 'partials/hero.css';
+@import 'partials/our-services.css';
+@import 'partials/logos.css';
+@import 'partials/community.css';
+@import 'partials/contact.css';
+@import 'partials/footer.css';
+
+/* Pages */
+@import 'pages/portfolio.css';
+@import 'pages/services.css';

@@ -1,0 +1,9 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+  <main data-router-wrapper>
+    <article data-router-view="name">
+      {{ content | safe }}
+    </article>
+  </main>
+{% endblock %}

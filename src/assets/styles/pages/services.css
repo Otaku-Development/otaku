@@ -1,0 +1,27 @@
+.Services {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  & li {
+    flex: 0 0 100%;
+    margin-bottom: 48px;
+    @media (--mq-tablet-and-up) {
+      flex: 0 0 50%;
+      padding: 0 var(--grid-gap);
+    }
+    @media (--mq-lap-and-up) {
+      flex: 0 0 25%;
+    }
+  }
+}
+
+.Service {
+  display: block;
+  & img {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}

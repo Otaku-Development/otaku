@@ -1,0 +1,85 @@
+.Footer {
+  padding: 40px 0 0 0;
+}
+
+.Footer__Block {
+  padding-bottom: 40px;
+}
+
+.Footer__Block--contact,
+.Footer__Block--address,
+.Footer__Block--social {
+  @media (--mq-lap-and-up) {
+    padding-top: 57px;
+  }
+}
+
+.Footer__Block--logo {
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.Footer__Block--contact p {
+  & a,
+  & strong {
+    display: block;
+  }
+  & strong {
+    margin-bottom: 10px;
+  }
+}
+
+.Footer__Block--address {
+}
+
+.SocialNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  & a {
+    width: 35px;
+    height: auto;
+    display: block;
+    margin-right: 14px;
+    & svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.Footer .Container {
+  @media (--mq-tablet-and-up) {
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (--mq-lap-and-up) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.SubFooter {
+  padding: 10px 0;
+
+  & .Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    @media (--mq-tablet-and-up) {
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    & p {
+      font-size: 12px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}

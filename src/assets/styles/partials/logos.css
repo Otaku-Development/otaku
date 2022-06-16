@@ -1,0 +1,29 @@
+.Logos {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.Logos__List {
+  list-style-type: none;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  & li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img {
+      width: 100%;
+      max-width: 250px;
+      margin: 0 auto;
+    }
+  }
+  @media (--mq-tablet-and-up) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  @media (--mq-lap-and-up) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+  }
+}

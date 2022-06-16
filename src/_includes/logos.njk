@@ -1,0 +1,12 @@
+<div id="clients" class="Logos">
+  <div class="Container">
+    <h2>People Who Trust <b>Otaku Development</b></h2>
+    <ul class="Logos__List">
+      {% for logo in logos %}
+        <li>
+          {% image ["./src/assets/images/", logo.image] | join, logo.name %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

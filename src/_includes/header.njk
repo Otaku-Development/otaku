@@ -1,0 +1,20 @@
+<header class="Header">
+  <div class="Container">
+    <p class="Header__Site-Title">
+      <span class="sr-only">Otaku Development</span>
+      {% include "../assets/images/logo.svg" %}
+    </p>
+    <nav class="Header__Nav">
+      {% set navPages = collections.all | eleventyNavigation %}
+      <ul class="MainNav">
+        {%- for entry in navPages %}
+          <li class="MainNav__Item">
+            <a class="MainNav__Link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+          </li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+

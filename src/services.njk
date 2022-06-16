@@ -1,0 +1,31 @@
+---
+title: 'Services | Otaku Development'
+layout: 'layouts/page.html'
+eleventyNavigation:
+  key: Services
+  order: 2
+---
+
+<div class="Container">
+  <div class="Page-Title">
+    <h1>Services</h1>
+    <p class="Lead">{{services.intro}}</p>
+  </div>
+
+
+    <ul class="Services">
+      {%- for service in services.services -%}
+        <li class="Service">
+          <div class="Service__Icon">
+            {% image ["./src/assets/images/", service.image] | join, service.title %}
+            <h3 class="h4">{{service.title}}</h3>
+            <p>{{service.description}}</p>
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+
+
+</div>
+{% include "contact.njk" %}
+
