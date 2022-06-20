@@ -1,0 +1,21 @@
+.Contact__Form,
+.Contact__Info {
+  grid-column: 1 / span 12;
+}
+
+@media (--mq-tablet-and-up) {
+  .Contact__Form {
+    grid-column: 7 / span 6;
+    grid-row: 1;
+  }
+  .Contact__Info {
+    grid-column: 1 / span 6;
+    grid-row: 1;
+  }
+}
+
+.Contact__Form form {
+  label {
+    display: block;
+  }
+}

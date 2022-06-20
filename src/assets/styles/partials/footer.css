@@ -83,3 +83,9 @@
     }
   }
 }
+
+.postal-address {
+  & span {
+    display: block;
+  }
+}

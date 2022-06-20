@@ -8,52 +8,63 @@ eleventyNavigation:
 
 <div class="Container">
 
-    <div class="Page-Title">
+  <div class="Page-Title">
     <h1>Contact Us</h1>
     <p class="Lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam harum sapiente iure asperiores pariatur vero. Explicabo ipsa nihil ex iste vel minus fugit, officiis ipsum molestias earum magnam, autem laborum.</p>
   </div>
 
+  <div class="Contact Grid">
+    <div class="Contact__Form">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+        <div class="sr-only">
+          <label>
+            Don’t fill this out if you’re human: <input name="bot-field" />
+          </label>
+        </div>
 
-  <form id="myForm" action="#" method="post">
+        <div class="input-wrap">
+          <label for="name">Name:</label>
+          <input type="text" name="name" />
+        </div>
 
-    <div>
-      <label for="name">Text Input:</label>
-      <input type="text" name="name" id="name" value="" tabindex="1">
+        <div class="input-wrap">
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+        </div>
+        <div class="input-wrap">
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+        </div>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <div data-netlify-recaptcha="true"></div>
+
+        <button type="submit" class="Button">Send</button>
+
+      </form>
     </div>
-
-    <div>
-      <h4>Radio Button Choice</h4>
-
-      <label for="radio-choice-1">Choice 1</label>
-      <input type="radio" name="radio-choice" id="radio-choice-1" tabindex="2" value="choice-1">
-
-      <label for="radio-choice-2">Choice 2</label>
-      <input type="radio" name="radio-choice" id="radio-choice-2" tabindex="3" value="choice-2">
+    <div class="Contact__Info">
+      <h2 class="h4">Location</h2>
+      <p translate="no" typeof="schema:PostalAddress" class="postal-address">
+        <span class="sr-only" property="schema:name">{{site.name}}</span>
+        <span property="schema:streetAddress">{{site.streetAddress | safe}}</span>
+        <span property="schema:addressLocality">{{site.addressLocality}}</span>
+        <span property="schema:addressRegion">{{site.addressRegion}}</span>
+        <span property="schema:postalCode">{{site.postalCode}}</span>
+        <span class="sr-only" property="schema:addressCountry">United Kingdom</span>
+      </p>
+      <h2 class="h4">Email</h2>
+      <p class="Contact__Email">
+        <a href="mailto:{{site.email}}" target="_blank" rel="noopener">{{site.email}}<span class="sr-only">- This is an email link</span></a>
+      </p>
+      <h2 class="h4">Phone</h2>
+      <p class="Contact__Phone">
+        <a class="tel" href="tel:{{site.phone}}" target="_blank" rel="noopener">{{site.phone_stylised}}</a>
+      </p>
     </div>
+  </div>
 
-    <div>
-      <label for="select-choice">Select Dropdown Choice:</label>
-      <select name="select-choice" id="select-choice">
-        <option value="Choice 1">Choice 1</option>
-        <option value="Choice 2">Choice 2</option>
-        <option value="Choice 3">Choice 3</option>
-      </select>
-    </div>
 
-    <div>
-      <label for="textarea">Textarea:</label>
-      <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-    </div>
-
-    <div>
-      <label for="checkbox">Checkbox:</label>
-      <input type="checkbox" name="checkbox">
-    </div>
-
-    <div>
-      <input type="submit" value="Submit" class="Button">
-    </div>
-
-  </form>
 
 </div>

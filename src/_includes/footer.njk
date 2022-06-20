@@ -6,23 +6,19 @@
     <div class="Footer__Block Footer__Block--contact">
       <p>
         <strong>Get in Touch</strong>
-        <a class="email" itemprop="email" href="mailto:hello@otaku.dev">hello@otaku.dev</a>
-        <a class="tel" itemprop="telephone" href="tel:+447971925149">+44 (0) 7971925149</a>
+        <a class="email" itemprop="email" href="mailto:{{site.email}}">{{site.email}}</a>
+        <a class="tel" itemprop="telephone" href="tel:{{site.phone}}">{{site.phone_stylised}}</a>
       </p>
     </div>
     <div class="Footer__Block Footer__Block--address">
-      <span itemprop="name">Otaku Development Limited</span>
-      <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-        <span itemprop="streetAddress">
-          The Mews<br />
-          Hounds Road<br />
-        </span>
-        <span itemprop="addressLocality">Chipping Sodbury</span>,<br />
-        <span itemprop="postalCode">BS37 6EE</span>
-      </div>
-
-
-
+      <p translate="no" typeof="schema:PostalAddress" class="postal-address">
+        <span class="sr-only" property="schema:name">{{site.name}}</span>
+        <span property="schema:streetAddress">{{site.streetAddress | safe}}</span>
+        <span property="schema:addressLocality">{{site.addressLocality}}</span>
+        <span property="schema:addressRegion">{{site.addressRegion}}</span>
+        <span property="schema:postalCode">{{site.postalCode}}</span>
+        <span class="sr-only" property="schema:addressCountry">United Kingdom</span>
+      </p>
     </div>
     <div class="Footer__Block Footer__Block--social">
       <nav class="SocialNav">
