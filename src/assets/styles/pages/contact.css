@@ -1,3 +1,10 @@
+.Contact {
+  padding: 0 0 var(--padding) 0;
+  @media (--mq-desk) {
+    padding: 0 0 var(--padding-large) 0;
+  }
+}
+
 .Contact__Form,
 .Contact__Info {
   grid-column: 1 / span 12;
@@ -15,7 +22,32 @@
 }
 
 .Contact__Form form {
-  label {
-    display: block;
+  margin: 0 0 var(--spacing) 0;
+  & label {
+    & abbr {
+      text-decoration: none;
+      color: var(--color-blue);
+    }
+  }
+
+  & .input-wrap {
+    margin-bottom: var(--spacing);
+    position: relative;
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      transform: scaleX(0);
+      transition: all 200ms ease;
+      transform-origin: 0 50%;
+      background-color: var(--color-blue);
+    }
+    &:focus-within::after {
+      transform: scaleX(1);
+    }
   }
 }

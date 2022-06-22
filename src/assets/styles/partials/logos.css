@@ -1,12 +1,13 @@
 .Logos {
   text-align: center;
-  padding: 40px 0;
+  padding: var(--padding) 0;
 }
 
 .Logos__List {
   list-style-type: none;
   display: grid;
-  gap: 40px;
+  gap: var(--padding);
+  padding: var(--padding) 0;
   grid-template-columns: repeat(2, 1fr);
   & li {
     display: flex;
@@ -20,7 +21,6 @@
   }
   @media (--mq-tablet-and-up) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
   }
   @media (--mq-lap-and-up) {
     grid-template-columns: repeat(3, 1fr);

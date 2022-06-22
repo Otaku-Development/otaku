@@ -1,9 +1,9 @@
 .Footer {
-  padding: 40px 0 0 0;
+  padding: var(--padding) 0 0 0;
 }
 
 .Footer__Block {
-  padding-bottom: 40px;
+  padding-bottom: var(--padding);
 }
 
 .Footer__Block--contact,

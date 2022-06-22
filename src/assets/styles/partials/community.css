@@ -1,5 +1,6 @@
 .Community__Title {
-  padding: 24px 0;
+  padding: var(--padding) var(--grid-gap) var(--spacing) var(--grid-gap);
+
   text-align: center;
   & h2 {
     margin: 0;
@@ -16,14 +17,14 @@
 }
 
 .Community__Text {
-  padding: 40px var(--grid-gap);
+  padding: var(--padding) var(--grid-gap);
 }
 
 .Swmobile {
-  padding-top: 24px;
+  padding-top: var(--spacing);
 
   & img {
-    margin: 0 auto 24px auto;
+    margin: 0 auto var(--spacing) auto;
     display: block;
   }
 }
@@ -34,6 +35,9 @@
     grid-template-columns: repeat(12, 1fr);
     column-gap: var(--grid-gap);
     row-gap: 0;
+  }
+  .Community__Text {
+    padding: 0 var(--grid-gap) var(--padding) var(--grid-gap);
   }
   .Community__Image {
     grid-column: 1 / span 6;
@@ -53,7 +57,7 @@
   .Swmobile {
     & img {
       float: left;
-      margin: 0 24px 24px 0;
+      margin: 0 var(--spacing) var(--spacing) 0;
     }
   }
 }

@@ -9,8 +9,8 @@ eleventyNavigation:
 <div class="Container">
 
   <div class="Page-Title">
-    <h1>Contact Us</h1>
-    <p class="Lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam harum sapiente iure asperiores pariatur vero. Explicabo ipsa nihil ex iste vel minus fugit, officiis ipsum molestias earum magnam, autem laborum.</p>
+    <h1>{{contact.page_title | safe}}</h1>
+    <p class="Lead">{{contact.intro| safe}}</p>
   </div>
 
   <div class="Contact Grid">
@@ -23,25 +23,21 @@ eleventyNavigation:
         </div>
 
         <div class="input-wrap">
-          <label for="name">Name:</label>
-          <input type="text" name="name" />
+          <label for="name">Your Name: <abbr title="required">*</abbr></label>
+          <input type="text" name="name" placeholder="Firstname Surname" required />
         </div>
 
         <div class="input-wrap">
-          <label for="email">Email</label>
-          <input type="email" name="email" />
+          <label for="email">Your Email: <abbr title="required">*</abbr></label>
+          <input type="email" name="email" required placeholder="hello@example.com" />
         </div>
+
         <div class="input-wrap">
-          <label for="email">Email</label>
-          <input type="email" name="email" />
+          <label for="message">Message: <abbr title="required">*</abbr></label>
+          <textarea name="message" placeholder="..." required></textarea>
         </div>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
         <div data-netlify-recaptcha="true"></div>
-
         <button type="submit" class="Button">Send</button>
-
       </form>
     </div>
     <div class="Contact__Info">

@@ -1,8 +1,8 @@
 <div id="clients" class="Logos">
   <div class="Container">
-    <h2>People Who Trust <b>Otaku Development</b></h2>
+    <h2>{{logos.title| safe}}</h2>
     <ul class="Logos__List">
-      {% for logo in logos %}
+      {% for logo in logos.clients %}
         <li>
           {% image ["./src/assets/images/", logo.image] | join, logo.name %}
         </li>

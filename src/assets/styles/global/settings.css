@@ -1,7 +1,6 @@
 :root {
   /* colo(u)rs */
-
-  --rgb-white: 255, 255, 255;
+  --rgb-white: 245, 244, 243;
   --color-white: rgb(var(--rgb-white));
 
   --rgb-black: 28, 27, 25;
@@ -11,6 +10,7 @@
   --color-blue: rgb(var(--rgb-blue));
 
   --rgb-dark-blue: 52, 66, 88;
+  /* --rgb-dark-blue: 12, 72, 88; */
   --color-dark-blue: rgb(var(--rgb-dark-blue));
 
   --rgb-error-100: 188, 0, 0;
@@ -40,8 +40,8 @@
   --color-form-border: rgb(var(--rgb-form-border));
 
   /* fonts */
-  --font-family-serif: 'Volkhov', serif;
   --font-family-sans: 'Nunito Sans', sans-serif;
+  --font-family-logo: 'Volkhov', serif;
 
   /* shadows */
   --box-shadow-focus: 0 0 0 1px rgba(var(--rgb-white), 0.5),
@@ -51,8 +51,8 @@
   --grid-gap: 24px;
 
   --spacing: 20px;
-  --spacing-mid: 40px;
-  --spacing-large: 60px;
+  --padding: 40px;
+  --padding-large: 80px;
 
   /* font sizes */
   /* --px-to-rem: calc((var(--pixels) / 16) * 1rem); */

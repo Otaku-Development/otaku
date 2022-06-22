@@ -1,38 +1,35 @@
 import Highway from '@dogstudio/highway'
-import Tween from 'gsap'
+import gsap from 'gsap'
+// import menuClose from './menu.js'
+
+// vars
+const body = document.querySelector('body'),
+  siteNav = document.querySelector('.Header__Nav'),
+  menuButton = document.querySelector('.js-menu-toggle'),
+  menuActive = 'open',
+  menuUnactive = 'closed'
 
 // Fade
 class Fade extends Highway.Transition {
   in({ from, to, done }) {
-    // Reset Scroll
-    window.scrollTo(0, 0)
-
-    // Remove Old View
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+    // close menu
+    // body.classList.remove('nav-open')
+    // siteNav.setAttribute('data-menu', menuUnactive)
+    // siteNav.removeAttribute('aria-expanded')
+    // menuButton.setAttribute('data-menu', menuUnactive)
     from.remove()
-
-    // Animation
-    Tween.fromTo(
-      to,
-      0.5,
-      { opacity: 0 },
-      {
-        opacity: 1,
-        onComplete: done,
-      }
-    )
+    gsap.from(to, { duration: 0.3, opacity: 0, onComplete: done })
   }
 
   out({ from, done }) {
-    // Animation
-    Tween.fromTo(
-      from,
-      0.5,
-      { opacity: 1 },
-      {
-        opacity: 0,
-        onComplete: done,
-      }
-    )
+    gsap.to(from, { opacity: 0, duration: 0.3, onComplete: done })
+
+    // close menu
+    body.classList.remove('nav-open')
+    siteNav.setAttribute('data-menu', menuUnactive)
+    siteNav.removeAttribute('aria-expanded')
+    menuButton.setAttribute('data-menu', menuUnactive)
   }
 }
 

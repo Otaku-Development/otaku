@@ -1,10 +1,13 @@
 /* Label */
 label {
   display: block;
-  font-size: var(--font-size--label);
-  line-height: var(--line-height--label);
-  font-weight: 600;
-  font-family: var(--font-family-baiser);
+  font-family: var(--font-family-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 5px;
+  color: var(--color-dark-blue);
 }
 
 /* Input Types */
@@ -23,19 +26,19 @@ input[type='url'],
 input[type='week'],
 textarea {
   font-family: var(--font-family-sans);
-  font-size: var(--font-size-base);
-  line-height: var(--line-height--base);
   color: var(--color-black);
-  background-color: var(--color-white);
-  border: solid 1px var(--color-form-border);
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px var(--color-blue);
   border-radius: 0;
-  padding: 7px 12px;
-  transition: border-color var(--global-transition);
+  padding: 0 0 10px 0;
+  transition: all 80ms ease;
+  width: 100%;
+  font-size: var(--font-size-base);
 
   /* Focus Styles - uses outline for A11y */
   &:focus-visible {
-    outline: solid 1px var(--color-blue);
-    outline-offset: -1px;
+    outline: 0;
   }
 
   &:disabled {
@@ -43,7 +46,6 @@ textarea {
     cursor: not-allowed;
     background-color: var(--color-white);
     border-color: rgba(var(--color-blue), 0.5);
-    color: var(--color-white);
     color: var(--color-black);
   }
 

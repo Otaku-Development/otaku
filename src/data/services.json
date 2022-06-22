@@ -1,45 +1,49 @@
 {
+  "page_title": "Our Services",
   "intro": "No matter if your app is a Legacy Project, a brand new build, or anything in between, we can jump in at any stage of a product's life cycle to diagnose problems, build new features or start from the ground up.",
   "services": [
     {
       "title": "iOS Development",
       "description": "We have years of experience with both Swift and Objective-C, meaning we work on almost any iOS project, be it new or legacy.",
-      "image": "phone.svg"
+      "image": "ios.svg"
     },
     {
       "title": "AppleTV / Homepod",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
-      "image": "phone.svg"
+      "image": "apple-tv.svg"
     },
     {
       "title": "Android  Development",
       "description": "Being fluent in Java and Kotlin allows us to build Android apps to any specification.",
-      "image": "phone.svg"
+      "image": "android.svg"
     },
     {
       "title": "Machine Learning & AI",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
-      "image": "phone.svg"
+      "image": "ai.svg"
     },
     {
       "title": "AR / VR",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
-      "image": "phone.svg"
+      "image": "ar.svg"
     },
     {
       "title": "CI/CD",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
-      "image": "phone.svg"
+      "image": "ci-dc.svg"
     },
     {
       "title": "Desktop Applications",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
-      "image": "phone.svg"
+      "image": "desktop.svg"
     },
     {
       "title": "Support Contracts",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
-      "image": "phone.svg"
+      "image": "support.svg"
     }
-  ]
+  ],
+  "cta_title": "Our Services",
+  "cta_copy": "From Development to Consultancy, technical architecture to implementation of best practices, for teams of 1 to 1000, Otaku has more than a decade of experience working in the mobile sector. Whatever you need to build or improve your offering, we can help.",
+  "cta_button": "Find out more"
 }

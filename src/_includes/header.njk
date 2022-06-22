@@ -1,10 +1,10 @@
 <header class="Header">
   <div class="Container">
-    <p class="Header__Site-Title">
+    <a class="Header__Site-Title" href="/">
       <span class="sr-only">Otaku Development</span>
       {% include "../assets/images/logo.svg" %}
-    </p>
-    <nav class="Header__Nav">
+    </a>
+    <nav class="Header__Nav" data-menu="closed">
       {% set navPages = collections.all | eleventyNavigation %}
       <ul class="MainNav">
         {%- for entry in navPages %}
@@ -14,6 +14,13 @@
         {%- endfor %}
       </ul>
     </nav>
+
+    <button class="js-menu-toggle Header__NavToggle" aria-expanded="false" aria-label="Open site navigation" aria-haspopup="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </div>
 </header>
 

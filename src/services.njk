@@ -8,8 +8,8 @@ eleventyNavigation:
 
 <div class="Container">
   <div class="Page-Title">
-    <h1>Services</h1>
-    <p class="Lead">{{services.intro}}</p>
+    <h1>{{services.page_title | safe}}</h1>
+    <p class="Lead">{{services.intro  | safe}}</p>
   </div>
 
 
@@ -18,7 +18,7 @@ eleventyNavigation:
         <li class="Service">
           <div class="Service__Icon">
             {% image ["./src/assets/images/", service.image] | join, service.title %}
-            <h3 class="h4">{{service.title}}</h3>
+            <h3 class="h5 Service__Title">{{service.title}}</h3>
             <p>{{service.description}}</p>
           </div>
         </li>

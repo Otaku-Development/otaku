@@ -1,23 +1,23 @@
-.Contact {
-  padding: 40px 0;
+.ContactCta {
+  padding: var(--padding) 0;
   & h2 {
     margin: 0;
   }
   & p {
-    margin: 20px 0;
+    margin: var(--spacing) 0;
   }
 }
 
-.Contact__Text,
-.Contact__Icon {
+.ContactCta__Text,
+.ContactCta__Icon {
   grid-column: 1 / span 12;
 }
 
 @media (--mq-tablet-and-up) {
-  .Contact__Text {
+  .ContactCta__Text {
     grid-column: 2 / span 6;
   }
-  .Contact__Icon {
+  .ContactCta__Icon {
     grid-column: 9 / span 3;
   }
 }

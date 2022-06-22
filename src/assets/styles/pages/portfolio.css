@@ -3,14 +3,40 @@
 }
 
 .Page-Title {
-  margin-bottom: 40px;
+  padding: var(--padding) 0;
+  text-align: center;
+  @media (--mq-desk) {
+    padding: var(--padding-large) 0;
+    max-width: 75%;
+    margin: 0 auto;
+  }
 }
 
 .Project {
-  margin-bottom: 40px;
+  margin-bottom: var(--padding-large);
 }
 
 .Project__Image {
+  position: relative;
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url('../images/portfolio-overlay.png');
+    background-size: 47px 69px;
+    width: 47px;
+    height: 69px;
+    top: -12px;
+    left: -12px;
+  }
+  &::after {
+    transform: rotate(180deg);
+    top: auto;
+    left: auto;
+    bottom: -12px;
+    right: -12px;
+  }
   & img {
     width: 100%;
     height: auto;
@@ -23,6 +49,7 @@
 }
 
 .Project__Details {
+  width: 100%;
   & dt {
     clear: left;
     display: inline-block;
@@ -42,6 +69,10 @@
   }
   .Project__Text {
     grid-column: 7 / span 6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 

@@ -1,11 +1,11 @@
-<div id="contact" class="Contact Bg--blue">
+<div id="contact" class="ContactCta Bg--blue">
   <div class="Container Grid">
-    <div class="Contact__Text">
-      <h2>Get in touch</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae necessitatibus hic distinctio corporis aspernatur quisquam eligendi unde tempore rem praesentium quos asperiores illo, nam sint ipsum quam illum ducimus suscipit!</p>
-      <a href="/contact" class="Button Button--inverted">Contact Us</a>
+    <div class="ContactCta__Text">
+      <h2>{{contact.cta_title| safe}}</h2>
+      <p>{{contact.cta_copy| safe}}</p>
+      <a href="/contact" class="Button Button--inverted">{{contact.cta_button| safe}}</a>
     </div>
-    <div class="Contact__Icon">
+    <div class="ContactCta__Icon">
       {% image "./src/assets/images/email.svg", "Contact Us" %}
     </div>
   </div>

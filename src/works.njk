@@ -9,11 +9,11 @@ eleventyNavigation:
 <div class="Container">
 
   <div class="Page-Title">
-    <h1>Portfolio</h1>
-    <p class="Lead">{{ portfolio.intro | safe }}</p>
+    <h1>{{works.page_title |safe }}</h1>
+    <p class="Lead">{{ works.intro | safe }}</p>
   </div>
 
-  {%- for project in portfolio.projects -%}
+  {%- for project in works.projects -%}
     <section class="Project Grid">
       <div class="Project__Image">
         {% image ["./src/assets/images/", project.image] | join, project.name %}

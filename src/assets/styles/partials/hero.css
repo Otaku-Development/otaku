@@ -1,14 +1,29 @@
 .Hero__Strapline {
+  padding: var(--padding) 0;
+  & h1 {
+    font-size: 2.4rem;
+    grid-column: 1 / span 12;
+  }
   & img {
     display: none;
   }
+
   @media (--mq-tablet-and-up) {
     & h1 {
       grid-column: 2 / span 7;
+      font-size: 3.2rem;
     }
     & img {
       display: block;
       grid-column: 10 / span 2;
+    }
+  }
+
+  @media (--mq-desk) {
+    padding: var(--padding-large) 0;
+    & h1 {
+      font-size: 4rem;
+      line-height: 1.3;
     }
   }
 }
