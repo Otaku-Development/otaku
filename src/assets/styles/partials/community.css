@@ -24,6 +24,7 @@
   padding-top: var(--spacing);
 
   & img {
+    width: 90px;
     margin: 0 auto var(--spacing) auto;
     display: block;
   }
@@ -49,6 +50,7 @@
   }
   .Community__Title {
     grid-row: 1;
+    max-height: 140px;
   }
   .Community__Text {
     grid-row: 2;
@@ -57,7 +59,7 @@
   .Swmobile {
     & img {
       float: left;
-      margin: 0 var(--spacing) var(--spacing) 0;
+      margin: 0 var(--padding) var(--spacing) 0;
     }
   }
 }

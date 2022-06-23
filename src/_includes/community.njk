@@ -9,10 +9,11 @@
   <div class="Community__Text">
     <p>{{comunity.intro| safe}}</p>
     <ul>
-      <li>iOS Dev UK - 2018</li>
-      <li>Swift Heros - 2018</li>
-      <li>nsLondon - 2018</li>
-      <li>SWmobile - 2014 - Present</li>
+      {% for talk in comunity.talks %}
+        <li>
+          {{talk | safe }}
+        </li>
+      {% endfor %}
     </ul>
     <div class="Swmobile">
       <h3 class="sr-only">{{comunity.swmobile_title| safe}}</h3>

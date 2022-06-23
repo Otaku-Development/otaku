@@ -28,5 +28,6 @@
 }
 
 .Service__Title {
+  text-align: center;
   color: var(--color-dark-blue);
 }

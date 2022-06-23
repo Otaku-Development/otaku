@@ -6,8 +6,20 @@
       "image": "dyson.svg"
     },
     {
+      "name": "Future",
+      "image": "future.svg"
+    },
+    {
+      "name": "Good Energy",
+      "image": "good-energy.svg"
+    },
+    {
       "name": "Enixa",
       "image": "enixa.svg"
+    },
+    {
+      "name": "Somo",
+      "image": "somo.svg"
     },
     {
       "name": "Chalkboard",
@@ -18,20 +30,8 @@
       "image": "complete-control.png"
     },
     {
-      "name": "CourseMate",
-      "image": "course-mate.png"
-    },
-    {
       "name": "Modular",
       "image": "modular.png"
-    },
-    {
-      "name": "Good Energy",
-      "image": "good-energy.svg"
-    },
-    {
-      "name": "Future",
-      "image": "future.svg"
     },
     {
       "name": "Mobius",
@@ -42,12 +42,12 @@
       "image": "apprentice.svg"
     },
     {
-      "name": "Somo",
-      "image": "somo.svg"
-    },
-    {
       "name": "Pixie",
       "image": "pixie.png"
+    },
+    {
+      "name": "CourseMate",
+      "image": "course-mate.png"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "page_title": "Our Services",
-  "intro": "No matter if your app is a Legacy Project, a brand new build, or anything in between, we can jump in at any stage of a product's life cycle to diagnose problems, build new features or start from the ground up.",
+  "intro": "No matter if your app is a legacy project, a brand new build, or anything in between, we can jump in at any stage of a product's life cycle to diagnose problems, build new features or start from the ground up.",
   "services": [
     {
       "title": "iOS Development",
@@ -44,6 +44,6 @@
     }
   ],
   "cta_title": "Our Services",
-  "cta_copy": "From Development to Consultancy, technical architecture to implementation of best practices, for teams of 1 to 1000, Otaku has more than a decade of experience working in the mobile sector. Whatever you need to build or improve your offering, we can help.",
+  "cta_copy": "From development to consultancy, technical architecture to implementation of best practices, for teams of 1 to 1000, Otaku has more than a decade of experience working in the mobile sector. Whatever you need to build or improve your offering, we can help.",
   "cta_button": "Find out more"
 }
