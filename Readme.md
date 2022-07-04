@@ -1,6 +1,8 @@
 # Otaku Development
 
-## tl:dr
+The website for [Otaku Development](https://otaku-dev.co.uk/).
+
+## 💁 tl:dr
 
 - Clone Repo
 - `cd` into repo
