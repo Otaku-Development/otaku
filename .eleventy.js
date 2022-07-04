@@ -25,6 +25,10 @@ module.exports = (config) => {
   config.addPlugin(eleventyNavigationPlugin)
   config.addNunjucksAsyncShortcode('image', imageShortcode)
   config.addJavaScriptFunction('image', imageShortcode)
+  config.addPassthroughCopy({
+    'src/assets/icons/favicon': '/assets/icons/favicon',
+  })
+
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
