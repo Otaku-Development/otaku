@@ -16,7 +16,7 @@ eleventyNavigation:
 
   <div class="Contact Grid">
     <div class="Contact__Form">
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+      <form id="ContactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
         <div class="sr-only">
           <label>
             Don’t fill this out if you’re human: <input name="bot-field" />
@@ -40,6 +40,10 @@ eleventyNavigation:
         <div data-netlify-recaptcha="true"></div>
         <button type="submit" class="Button">Send</button>
       </form>
+      <div class="Contact__Message">
+        <p class="Contact__MessageText Contact__MessageText--success">{{contact.success}}</p>
+        <p class="Contact__MessageText Contact__MessageText--error">{{contact.error}}</p>
+      </div>
     </div>
     <div class="Contact__Info">
       <h2 class="h4">Location</h2>
