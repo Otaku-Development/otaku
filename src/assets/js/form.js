@@ -10,10 +10,6 @@ const contactMessageError = document.querySelector(
 )
 
 export default function () {
-  if (form) {
-    form.addEventListener('submit', handleSubmit)
-  }
-
   const handleSubmit = (e) => {
     e.preventDefault()
     let formData = new FormData(form)
@@ -24,6 +20,10 @@ export default function () {
     })
       .then(displaySuccessMessage())
       .catch(displayerrorMessage(error))
+  }
+
+  if (document.getElementById('ContactForm')) {
+    form.addEventListener('submit', handleSubmit)
   }
 
   const displaySuccessMessage = () => {

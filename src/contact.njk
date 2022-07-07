@@ -37,8 +37,11 @@ eleventyNavigation:
           <label for="message">Message: <abbr title="required">*</abbr></label>
           <textarea name="message" placeholder="..." required></textarea>
         </div>
+
         <div data-netlify-recaptcha="true"></div>
+
         <button type="submit" class="Button">Send</button>
+
       </form>
       <div class="Contact__Message">
         <p class="Contact__MessageText Contact__MessageText--success">{{contact.success}}</p>
