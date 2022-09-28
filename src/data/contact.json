@@ -1,9 +1,9 @@
 {
   "page_title": "Contact Us",
-  "intro": "If you have a problem, if no one else can help.... Get in touch and we'll help you solve it",
+  "intro": "If you have a problem, if no one else can help....<br />Get in touch and we'll help you solve it.",
   "success": "Thanks for your message. We'll be in touch soon.",
   "error": "We're sorry, something's gone wrong. Please try again.",
   "cta_title": "Get in touch",
-  "cta_copy": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae necessitatibus hic distinctio corporis aspernatur quisquam eligendi unde tempore rem praesentium quos asperiores illo, nam sint ipsum quam illum ducimus suscipit!",
+  "cta_copy": "If you have a problem, if no one else can help....<br />Get in touch and we'll help you solve it.",
   "cta_button": "Contact Us"
 }
