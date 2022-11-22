@@ -10,10 +10,10 @@
       "image": "portfolio-1.jpg"
     },
     {
-      "name": "Project Two",
-      "client": "Client Two",
-      "role": "iOS Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "name": "Dyson: Connected Services App",
+      "client": "Dyson",
+      "role": "iOS and Android Leadership | Consultancy| Mentoring",
+      "desc": "Full rewrite of Dyson's Connected devices app, used to manage vacuum cleaners and air purifiers",
       "image": "portfolio-2.jpg"
     },
     {
