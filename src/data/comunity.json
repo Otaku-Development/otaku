@@ -2,10 +2,10 @@
   "title": "In the Community",
   "intro": "Daniel Leivers from Otaku Development is a regular speaker at developer focused events across Europe. He speaks about iOS development, AI, Swift, working with GraphQL and React Native applications.",
   "talks": [
-    "iOS Dev UK - 2018",
-    "Swift Heros - 2018",
-    "NSLondon - 2018",
-    "SWmobile - 2014 - Present"
+    "iOS Dev UK",
+    "Swift Heros",
+    "NSLondon",
+    "SWmobile"
   ],
   "image_alt": "Daniel Leivers on stage",
   "swmobile_title": "SWmobile",
