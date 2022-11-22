@@ -5,6 +5,10 @@
       "name": "Dyson",
       "image": "dyson.svg"
     },
+      {
+      "name": "Wall Street Journal",
+      "image": "wsj.jpeg"
+    },
     {
       "name": "Future",
       "image": "future.svg"
