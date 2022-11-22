@@ -4,9 +4,9 @@
   "projects": [
     {
       "name": "Project One",
-      "client": "Client One",
-      "role": "iOS Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "client": "Dating App",
+      "role": "iOS App | Android | React Native",
+      "desc": "React Native development for a leading UK dating site",
       "image": "portfolio-1.jpg"
     },
     {
