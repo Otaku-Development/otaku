@@ -8,7 +8,7 @@
       "image": "ios.svg"
     },
     {
-      "title": "AppleTV / Homepod",
+      "title": "AppleTV",
       "description": "",
       "image": "apple-tv.svg"
     },
@@ -18,22 +18,22 @@
       "image": "android.svg"
     },
     {
-      "title": "Machine Learning & AI",
+      "title": "Machine Learning & Artificial Intelligence",
       "description": "",
       "image": "ai.svg"
     },
     {
-      "title": "AR / VR",
+      "title": "Augmented Reality & Virtual Reality",
       "description": "",
       "image": "ar.svg"
     },
     {
-      "title": "CI/CD",
+      "title": "Continuous Integration",
       "description": "",
       "image": "ci-dc.svg"
     },
     {
-      "title": "Desktop Applications",
+      "title": "Desktop Apps",
       "description": "",
       "image": "desktop.svg"
     },
