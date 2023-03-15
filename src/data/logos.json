@@ -68,14 +68,6 @@
     {
       "name": "Pixie",
       "image": "pixie.png"
-    },
-    {
-      "name": "CourseMate",
-      "image": "course-mate.png"
-    },
-      {
-      "name": "Enixa",
-      "image": "enixa.svg"
     }
   ]
 }
