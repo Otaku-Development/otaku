@@ -1,9 +1,9 @@
 {
   "page_title": "Contact Us",
-  "intro": "Get in touch to find out how we can help with your app today<br />Get in touch and we'll help you solve it.",
+  "intro": "Get in touch to find out how we can help.",
   "success": "Thanks for your message. We'll be in touch soon.",
   "error": "We're sorry, something's gone wrong. Please try again.",
   "cta_title": "Get in touch",
-  "cta_copy": "If you have a problem, if no one else can help....<br />Get in touch and we'll help you solve it.",
+  "cta_copy": "We'd love to have a chat.",
   "cta_button": "Contact Us"
 }
