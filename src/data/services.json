@@ -4,17 +4,17 @@
   "services": [
     {
       "title": "iOS Development",
-      "description": "Swift, SwiftUI, Combines, CoreData",
+      "description": "",
       "image": "ios.svg"
     },
     {
       "title": "AppleTV / Homepod",
-      "description": "Swift, TVML",
+      "description": "",
       "image": "apple-tv.svg"
     },
     {
       "title": "Android Development",
-      "description": "Kotlin, Java",
+      "description": "",
       "image": "android.svg"
     },
     {
