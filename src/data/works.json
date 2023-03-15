@@ -3,9 +3,10 @@
   "intro": "Some examples of our work",
   "projects": [
     {
-      "name": "Good Energy",
-      "role": "iOS App",
-      "desc": "Development was handed over from another agency, we completed development and released the app.",
+      "name": "Energy provider app",
+      "client": "Good Energy",
+      "role": "iOS and iPadOS App",
+      "desc": "Developed and maintained new Good Energy app, it has consistently been one of the highest rated energy company apps on the App Store.",
       "image": "portfolio-goodenergy.png"
     },
     {
