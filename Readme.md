@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cf1161b6-a21d-4dd4-890b-a561ed3ef954/deploy-status)](https://app.netlify.com/sites/otaku-dev/deploys)
 
-The website for [Otaku Development](https://otaku-dev.co.uk/).
+The website for [Otaku Development](https://otaku-dev.co.uk/), the Netlify version is [here](https://otaku-dev.netlify.app).
 
 ## 💁 tl:dr
 
