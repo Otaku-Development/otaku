@@ -4,42 +4,42 @@
   "services": [
     {
       "title": "iOS Development",
-      "description": "We have years of experience with both Swift and Objective-C, meaning we work on almost any iOS project, be it new or legacy.",
+      "description": "Swift, SwiftUI, Combines, CoreData",
       "image": "ios.svg"
     },
     {
       "title": "AppleTV / Homepod",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "description": "Swift, TVML",
       "image": "apple-tv.svg"
     },
     {
       "title": "Android Development",
-      "description": "Being fluent in Java and Kotlin allows us to build Android apps to any specification.",
+      "description": "Kotlin, Java",
       "image": "android.svg"
     },
     {
       "title": "Machine Learning & AI",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "description": "",
       "image": "ai.svg"
     },
     {
       "title": "AR / VR",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "description": "",
       "image": "ar.svg"
     },
     {
       "title": "CI/CD",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "description": "",
       "image": "ci-dc.svg"
     },
     {
       "title": "Desktop Applications",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
+      "description": "",
       "image": "desktop.svg"
     },
     {
       "title": "Support Contracts",
-      "description": "We offer xxx ",
+      "description": "",
       "image": "support.svg"
     }
   ],
