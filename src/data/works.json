@@ -13,22 +13,15 @@
       "name": "Dyson: Connected Services App",
       "client": "Dyson",
       "role": "iOS and Android Leadership | Consultancy | Mentoring",
-      "desc": "Full rewrite of Dyson's Connected devices app, used to manage connected devices",
+      "desc": "Full rewrite of Dyson's Connected devices app, used to manage connected devices.",
       "image": "portfolio-2.jpg"
     },
     {
-      "name": "Project Three",
-      "client": "Client Three",
-      "role": "iOS Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
-      "image": "portfolio-1.jpg"
-    },
-    {
-      "name": "Project Four",
-      "client": "Client Four",
-      "role": "iOS Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore sequi quasi perspiciatis delectus totam, similique culpa! Rerum exercitationem accusantium velit quas architecto, quos minima officia incidunt adipisci earum ex?",
-      "image": "portfolio-2.jpg"
+      "name": "Bing TV streaming app",
+      "client": "Complete Control",
+      "role": "React Native Development",
+      "desc": "Developed a subscription based video streaming and games app for iOS, iPadOS, Android (Google Play and Amazon).",
+      "image": "portfolio-bing.png"
     }
   ]
 }
