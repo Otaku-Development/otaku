@@ -5,27 +5,30 @@
       "name": "Dyson",
       "image": "dyson.svg"
     },
-      {
+    {
       "name": "Wall Street Journal",
       "image": "wsj-small.png"
     },
-      {
+    {
       "name": "Audi",
       "image": "Audi-Logo-mobile-app-android.png"
-    },
-      {
-      "name": "Jamie Oliver",
-      "image": "jamie.png"
     },
     {
       "name": "Future",
       "image": "future.svg"
     },
     {
+      "name": "Bing",
+      "image": "bing.png"
+    },
+    {
+      "name": "Jamie Oliver",
+      "image": "jamie.png"
+    },
+    {
       "name": "Good Energy",
       "image": "good-energy.svg"
     },
-
     {
       "name": "Somo",
       "image": "somo.svg"
